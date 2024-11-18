@@ -1,0 +1,14 @@
+,cate-all,cate-all-recc,cate1,cate1-recc,cate2,cate2-recc,cate3,cate3-recc,continuous-all,every,textblob,textblob-extra,vote-count
+cate-all,0,1,0,0,4,0,0,0,8,8,8,8,8
+cate-all-recc,2,0,1,0,4,3,4,0,8,8,8,8,7
+cate1,0,1,0,2,4,0,2,2,8,8,8,8,7
+cate1-recc,2,2,3,0,4,2,5,2,8,8,8,8,7
+cate2,0,2,0,1,0,0,1,1,8,8,8,8,8
+cate2-recc,0,1,0,1,4,0,0,1,8,8,8,8,7
+cate3,0,1,0,1,2,0,0,1,8,8,8,8,8
+cate3-recc,0,0,0,0,4,0,1,0,8,8,8,8,7
+continuous-all,0,0,0,0,0,0,0,0,0,1,3,2,0
+every,0,0,0,0,0,0,0,0,7,0,5,7,4
+textblob,0,0,0,0,0,0,0,0,3,0,0,4,0
+textblob-extra,0,0,0,0,0,0,0,0,2,1,1,0,0
+vote-count,0,0,0,0,0,0,0,0,8,4,8,8,0

@@ -1,0 +1,6 @@
+redo pairwise t test for KNN
+propogate improved random forest hparam space through analysis
+
+_log_TREE_criterion_analysis_signif.png has two distinct groups. Find out what those groups are.
+Predict recommendation on another feature subset
+I want every _log which performed above a t score of 20.

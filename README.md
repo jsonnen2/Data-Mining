@@ -1,11 +1,23 @@
+
+## Data:
+    A web scraping of Steam reviews by Mohamad Tarek yielded this dataset. There are many features pulled
+    that are publicly known: message upvotes, hours played, game name, publisher, and reviewer recommendation (binary).
+    I use TextBlob to expand my features. I use their sentiment analysis tool to generate polarity and subjectivity
+    ratings for every review. My **`slides/Master Slide Deque.pptx`** contains graphics displaying the distributions
+    of these features. 
+
+    Data can be found at:
+    https://www.kaggle.com/datasets/mohamedtarek01234/steam-games-reviews-and-rankings 
+
+    
 ## Discussion:
 
 The best split criterion for a Random Forest are random splits. These findings support Leo 
 Brieman's claims in his esteemed 
 paper from 2001 inventing the Random Forest titled, "Random Forests". I would like to direct the
 reader to slides 24, 30, and 34 of **`slides/Master Slide Deque.pptx`** for a plot which shows
-the distribution of classifier performance across different criterion choices. Random is clearly 
-the best across every case. 
+the distribution of classifier performance across different criterion choices. Random performs
+best on average compared to log loss, gini index, and entropy. 
 
 ## File structure:
 
@@ -47,16 +59,10 @@ the best across every case.
 
 
 ## Dependencies:
-    numpy 1.24.2
+    numpy 
     pandas
     sklearn
 
-## Data:
-    Steam Review Dataset:
-        https://www.kaggle.com/datasets/mohamedtarek01234/steam-games-reviews-and-rankings?select=steam_game_reviews.csv 
-    Game Sales Dataset:
-        https://www.kaggle.com/datasets/gregorut/videogamesales 
 
-    Preprocess the data: ./P5/preprocessing_stack.py
 
 

@@ -1,7 +1,7 @@
 ## Discussion:
 
-The best split criterion for a 
-Random Forest are random splits. These findings support Leo Brieman's claims in his esteemed 
+The best split criterion for a Random Forest are random splits. These findings support Leo 
+Brieman's claims in his esteemed 
 paper from 2001 inventing the Random Forest titled, "Random Forests". I would like to direct the
 reader to slides 24, 30, and 34 of **slides/Master Slide Deque.pptx** for a plot which shows
 the distribution of classifier performance across different criterion choices. Random is clearly 
@@ -9,13 +9,16 @@ the best across every case.
 
 ## File structure:
 
+- **`eval_on_test_set.py`**
+    Evaluation on the test set across my 3 different groups of experiments. I ran KNN to predict hours played,
+    Random Forest to predict hours played, and Random Forest to predict recommendation.
 - **run_knn.py** 
     This file runs my K Nearest Neighbors classifier on my data using
     several feature subsets, target discretization methods, and hyperparameter choices. 
     The script will generate _log files which stores data about classifier performance compared
     with the majority classifier.
 - **run_random_forest.py**
-    Same functionality of ./final_repo/run_knn.py but uses sklearn's random forest to classify. 
+    Same functionality of run_knn.py but uses sklearn's random forest to classify. 
     Also pulls sklearn metrics, which I will be using going forward. Saved in a standard format
     to my _log folder.
 - **log_analyze.py**
@@ -35,9 +38,6 @@ the best across every case.
     The best plot for comparing differences between classifiers. I can grouby any attribute then plot
     the distribution of t scores. I have a dashed line to represent the median, which is an unbiased
     estimator. I also have the option for representing certain features with shapes. 
-- **eval_on_test_set.py**
-    Evaluation on the test set across my 3 different groups of experiments. I ran KNN to predict hours played,
-    Random Forest to predict hours played, and Random Forest to predict recommendation.
 - **classifier.py**
     My implementation of the K Nearest Neighbors and Naive Bayes algorithms.
 - **decision_tree.py**

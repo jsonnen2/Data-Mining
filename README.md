@@ -1,7 +1,13 @@
-## Discussion
+## Discussion:
 
+The best split criterion for a 
+Random Forest are random splits. These findings support Leo Brieman's claims in his esteemed 
+paper from 2001 inventing the Random Forest titled, "Random Forests". I would like to direct the
+reader to slides 24, 30, and 34 of **slides/Master Slide Deque.pptx** for a plot which shows
+the distribution of classifier performance across different criterion choices. Random is clearly 
+the best across every case. 
 
-## File structure
+## File structure:
 
 **run_knn.py**
     This file runs my K Nearest Neighbors classifier on my data using

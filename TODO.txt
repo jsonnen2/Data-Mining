@@ -1,6 +1,17 @@
-redo pairwise t test for KNN
-propogate improved random forest hparam space through analysis
 
-_log_TREE_criterion_analysis_signif.png has two distinct groups. Find out what those groups are.
-Predict recommendation on another feature subset
-I want every _log which performed above a t score of 20.
+Add discussion to my README.md
+    - explain my pipeline
+    - important findings
+        - random split criterion (ref. Leo Brieman)
+        - equal frequency discretization
+    - direct readers to my slide deque
+
+The best split criterion for a 
+Random Forest are random splits. These findings support Leo Brieman's claims in his esteemed 
+paper from 2001 inventing the Random Forest titled, "Random Forests". I would like to direct the
+reader to slides 24, 30, and 34 of **slides/Master Slide Deque.pptx** for a plot which shows
+the distribution of classifier performance across different criterion choices. Random is clearly 
+the best across every case. 
+
+eval_on_test_set.py
+    - should have 3 methods: all 3 models

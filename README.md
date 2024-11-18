@@ -8,7 +8,7 @@ the distribution of classifier performance across different criterion choices. R
 the best across every case. 
 
 ## File structure:
-```
+
 - **run_knn.py** 
     This file runs my K Nearest Neighbors classifier on my data using
     several feature subsets, target discretization methods, and hyperparameter choices. 
@@ -44,7 +44,7 @@ the best across every case.
     My implementation of the Decision Tree classification algorithm.
 - **random_forest.py**
     My implementation of a Random Forest. I use an ensembling of Decision Trees to achieve a Random Forest. 
-```
+
 
 ## Dependencies:
     numpy 1.24.2

@@ -1,13 +1,14 @@
 
 ## Data:
-    A web scraping of Steam reviews by Mohamad Tarek yielded this dataset. There are many features pulled
-    that are publicly known: message upvotes, hours played, game name, publisher, and reviewer recommendation (binary).
-    I use TextBlob to expand my features. I use their sentiment analysis tool to generate polarity and subjectivity
-    ratings for every review. My **`slides/Master Slide Deque.pptx`** contains graphics displaying the distributions
-    of these features. 
 
-    Data can be found at:
-    https://www.kaggle.com/datasets/mohamedtarek01234/steam-games-reviews-and-rankings 
+A web scraping of Steam reviews by Mohamad Tarek yielded this dataset. There are many features pulled
+that are publicly known: message upvotes, hours played, game name, publisher, and reviewer recommendation (binary).
+I use TextBlob to expand my features. I use their sentiment analysis tool to generate polarity and subjectivity
+ratings for every review. My **`slides/Master Slide Deque.pptx`** contains graphics displaying the distributions
+of these features. 
+
+Data can be found at:
+https://www.kaggle.com/datasets/mohamedtarek01234/steam-games-reviews-and-rankings 
 
     
 ## Discussion:

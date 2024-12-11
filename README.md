@@ -1,11 +1,10 @@
 
 ## Data:
 
-A web scraping of Steam reviews by Mohamad Tarek yielded this dataset. There are many features pulled
-that are publicly known: message upvotes, hours played, game name, publisher, and reviewer recommendation (binary).
-I use TextBlob to expand my features. I use their sentiment analysis tool to generate polarity and subjectivity
-ratings for every review. **`slides/Master_Slide_Deque.pptx`** contains graphics displaying the distributions
-of these features. 
+A web scraping of Steam reviews by Mohamad Tarek yielded this dataset. The data describes review messages left by
+Steam community members across 290 games. I use a Natural Language Processing library, TextBlob, to produce
+sentiment scores and length measurements. I use these features to predict if a user recommends a game (binary) and
+the number of hours that the user played that game. 
 
 Data can be found at:
 https://www.kaggle.com/datasets/mohamedtarek01234/steam-games-reviews-and-rankings 
@@ -13,12 +12,9 @@ https://www.kaggle.com/datasets/mohamedtarek01234/steam-games-reviews-and-rankin
     
 ## Discussion:
 
-The best split criterion for a Random Forest are random splits. These findings support Leo 
-Brieman's claims in his esteemed 
-paper from 2001 inventing the Random Forest titled, "Random Forests". I would like to direct the
-reader to slides 24, 30, and 34 of **`slides/Master_Slide_Deque.pptx`** plots which show
-the distribution of classifier performance across different criterion choices. Random performs
-best on average compared to log loss, gini index, and entropy. 
+- classifier comparison
+- feature subsets. 
+- final performance 
 
 ## File structure:
 

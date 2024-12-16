@@ -2,9 +2,8 @@
 ## Data
 
 A web scraping of Steam reviews by Mohamad Tarek yielded this dataset. The data describes review messages left by
-Steam community members across 290 games. I use a Natural Language Processing library, TextBlob, to produce
-sentiment scores and length measurements. I use these features to predict if a user recommends a game (binary) and
-the number of hours that the user played that game. 
+Steam community members across 290 games. I used TextBlob, a Sentiment Analysis tool, which generated sentiment scores and length measurements for each Steam review. I use these features to predict if a user recommends a game (binary) and
+the number of hours that the user played that game. My best performing models were a Random Forest and a Neural Network, respectively.
 
 Data can be found at:
 https://www.kaggle.com/datasets/mohamedtarek01234/steam-games-reviews-and-rankings 
